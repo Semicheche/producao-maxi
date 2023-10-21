@@ -20,6 +20,12 @@ const routes = [
         component: () => import("pages/ImpressaoPage.vue"),
       },
       {
+        name: "detalhe-impressao",
+        path: "detalhe-impressao/:codigo",
+        component: () => import("pages/DetalheImpressaoPage.vue"),
+        props: true
+      },
+      {
         name: "corte-costura",
         path: "corte-costura",
         component: () => import("pages/CorteCosturaPage.vue"),
@@ -28,6 +34,12 @@ const routes = [
         name: "enfardamento",
         path: "enfardamento",
         component: () => import("pages/EnfardamentoPage.vue"),
+      },
+      {
+        name: "valida-pedido",
+        path: "valida-pedido/:codigo",
+        component: () => import("pages/ValidaPedidoPage.vue"),
+        props: true
       },
     ],
   },

@@ -2,8 +2,8 @@
   <q-page class="flex flex-center">
     <img
       alt="Quasar logo"
-      src="https://maxirafia.com.br/wp-content/uploads/2023/07/LogoMaxiRafia.svg"
-      style="width: 200px; height: 200px"
+      src="src/assets/LogoMaxiRafia.svg"
+      style="width: 40vh; height: 40vh"
     />
   </q-page>
 </template>

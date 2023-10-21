@@ -11,7 +11,7 @@
           @click="toggleLeftDrawer"
         />
 
-        <q-toolbar-title class="text-bold"> MaxiRáfia </q-toolbar-title>
+        <q-toolbar-title class="text-bold text-logo" style="font-family: ;">Maxiráfia</q-toolbar-title>
       </q-toolbar>
     </q-header>
 
